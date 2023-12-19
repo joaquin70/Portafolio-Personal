@@ -1,7 +1,7 @@
 import React from 'react';
 import NauticaImage from '../assets/Nautica Rios.png';
 import RickImage from '../assets/Rick.jpg';
-import PIImage from '../assets/Pi Videojuegos.png';
+import PImage from '../assets/Videojuegos.png';
 
 const ProjectCard = ({ image, title, description, githubLink, liveLink }) => {
     return (
@@ -39,7 +39,7 @@ const Projects = () => {
       description: 'Da vida a los Videojuegos de tus sueños con nuestra función de creación intuitiva. Personaliza Descripcion,Plataformas y personalidades para diseñar tu Videojuego virtual perfecto.',
       githubLink: 'https://github.com/joaquin70/Videojuegos-PI',
       liveLink: 'https://videojuegos-pi.vercel.app/',
-      image: PIImage,
+      image: PImage,
     },
     {
       title: 'Rick And Morty',
