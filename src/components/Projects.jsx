@@ -1,7 +1,7 @@
 import React from 'react';
 import NauticaImage from '../assets/Nautica Rios.png';
 import RickImage from '../assets/Rick.jpg';
-import PImage from '../assets/Videojuegos.png';
+import PImage from '../assets/VideoJuegos.png';
 
 const ProjectCard = ({ image, title, description, githubLink, liveLink }) => {
     return (
