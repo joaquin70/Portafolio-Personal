@@ -1,8 +1,8 @@
-// App.jsx
 import React from 'react';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -11,13 +11,12 @@ function App() {
         <source src="/cards-video.webm" type="video/mp4" />
         Tu navegador no admite el elemento de video.
       </video>
-
       <div className="absolute inset-0 bg-black opacity-50"></div>
-
       <div className="relative z-10">
         <Navbar />
         <About />
         <Skills/>
+        <Projects/>
       </div>
     </div>
   );
