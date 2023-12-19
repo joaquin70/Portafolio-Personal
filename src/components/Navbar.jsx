@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import profileImage from '../assets/programerr.png'
+import profileImage from '../assets/Programerr.png';
 
 const Navbar = () => {
   return (
