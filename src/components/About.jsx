@@ -13,18 +13,18 @@ const About = () => {
   };
 
   return (
-    <div id="about" className="container mx-auto p-20 lg:flex items-center justify-between mt-30">
-      <div className="lg:w-1/2 lg:pr-8 mt-8">
+    <div id="about" className="container mx-auto p-20 flex flex-col lg:flex-row items-center justify-between mt-30">
+      <div className="lg:w-1/2 lg:pr-10 mt-8">
         <div className="mb-1">
           <span className="text-4xl font-bold text-white">
-            <font className="text-white ml-2">Creacion</font>
-            <font className="text-transparent bg-clip-text bg-gradient-to-r from-purple-200 to-cyan-600 ml-2">Codigo</font>
+            <font className="text-white ml-1">Creacion</font>
+            <font className="text-transparent bg-clip-text bg-gradient-to-r from-purple-200 to-cyan-600 ml-1">Codigo</font>
           </span>
         </div>
         <div>
           <span className="text-4xl font-bold text-gray-800">
-            <font className="text-transparent bg-clip-text bg-gradient-to-r from-purple-200 to-cyan-600 ml-2">Diseño</font>
-            <font className="text-white ml-2">Experiencias</font>
+            <font className="text-transparent bg-clip-text bg-gradient-to-r from-purple-200 to-cyan-600 ml-0">Diseño</font>
+            <font className="text-white ml-1">Experiencia</font>
           </span>
         </div>
         <p className="text-lg text-gray-400 mt-4">
@@ -32,15 +32,17 @@ const About = () => {
           Mira mis proyectos y habilidades.
         </p>
 
-        <div className="mt-6">
-          <button onClick={handleDownloadCV} className="bg-[#03001417] text-white px-4 py-2 mr-4 rounded-lg border cursor-pointer font-bold">
+        <div className="flex flex-col items-center space-y-5 space-x-4 p-4  lg:mt-0">
+          <button onClick={handleDownloadCV} className="bg-[#03001417] text-white px-4 py-2 rounded-lg border cursor-pointer font-bold">
             Descargar CV
           </button>
-          <a href="https://www.linkedin.com/in/joaquin70/" className="bg-[#03001417] text-white px-4 py-2 rounded-lg border cursor-pointer font-bold">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/joaquin70/" className="bg-[#03001417] text-white px-4 py-2 rounded-lg border font-bold">
+            LinkedIn
+          </a>
         </div>
       </div>
 
-      <div className="lg:w-1/2 p-20">
+      <div className="lg:w-1/2 lg:pr-25 mt-5">
         <img src={Icons} alt="Mi SVG" className="w-full h-auto rounded text-white " />
       </div>
     </div>
@@ -48,6 +50,12 @@ const About = () => {
 };
 
 export default About;
+
+
+
+
+
+
 
 
 
