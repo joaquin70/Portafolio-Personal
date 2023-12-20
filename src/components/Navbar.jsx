@@ -4,24 +4,22 @@ import profileImage from '../assets/Programerr.png';
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#03001417] shadow-lg shadow-[#2A0E61] p-2 flex justify-between items-center fixed w-full top-0 z-50">
+    <nav className="bg-[#3b27eb17] shadow-lg shadow-[#2A0E61] flex justify-between items-center fixed w-full top-0 z-50">
       <div className="flex items-center p-4">
-      <img src={profileImage} alt="Profile" className="w-10 h-10 rounded-full mr-2 " />
+        <img src={profileImage} alt="Profile" className="w-10 h-10 rounded-full mr-2" />
         <a href="#about" className="text-gray-300 ml-[16px] font-bold">Joaquin Gonzalez</a>
       </div>
 
-      <div className="flex items-center space-x-10">
-        <div className="flex items-center rounded-full overflow-hidden border border-gray-400">
-          <a href="#about" className="text-lg text-gray-100 px-8 py-2 hover:text-white transition-all duration-300">
-            About Me
-          </a>
-          <a href="#skills" className="text-lg text-gray-100 px-10 py-2 hover:text-white transition-all duration-300">
-            Skills
-          </a>
-          <a href="#projects" className="text-lg text-gray-100 px-12 py-2 hover:text-white transition-all duration-300">
-            Projects
-          </a>
-        </div>
+      <div className="flex items-center space-x-4">
+        <a href="#about" className="text-lg text-gray-100 px-2 py-1 hover:text-white transition-all duration-300">
+          About
+        </a>
+        <a href="#skills" className="text-lg text-gray-100 px-2 py-1 hover:text-white transition-all duration-300">
+          Skills
+        </a>
+        <a href="#projects" className="text-lg text-gray-100 px-2 py-1 hover:text-white transition-all duration-300">
+          Projects
+        </a>
       </div>
 
       <div className="flex items-center space-x-6 p-4">
@@ -37,6 +35,9 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
 
 
 

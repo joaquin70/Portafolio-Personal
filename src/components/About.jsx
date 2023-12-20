@@ -6,15 +6,16 @@ const About = () => {
   const handleDownloadCV = () => {
     const link = document.createElement('a');
     link.href = CvPdf;
-    link.download = 'Cv Joaquin'; 
+    link.download = 'Cv Joaquin';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
+
   return (
-    <div id="about" className="container mx-auto p-8 flex items-center justify-between">
-      <div className="w-1/2 pr-8">
-        <div className="mb-4">
+    <div id="about" className="container mx-auto p-20 lg:flex items-center justify-between mt-30">
+      <div className="lg:w-1/2 lg:pr-8 mt-8">
+        <div className="mb-1">
           <span className="text-4xl font-bold text-white">
             <font className="text-white ml-2">Creacion</font>
             <font className="text-transparent bg-clip-text bg-gradient-to-r from-purple-200 to-cyan-600 ml-2">Codigo</font>
@@ -32,21 +33,23 @@ const About = () => {
         </p>
 
         <div className="mt-6">
-        <button onClick={handleDownloadCV} className="bg-[#03001417] text-white px-4 py-2 mr-4 rounded-lg  border cursor-pointer font-bold">
-          Descargar CV
-        </button>
-          <a href="https://www.linkedin.com/in/joaquin70/"  className="bg-[#03001417] text-white px-4 py-2 rounded-lg border cursor-pointer font-bold">LinkedIn</a>
+          <button onClick={handleDownloadCV} className="bg-[#03001417] text-white px-4 py-2 mr-4 rounded-lg border cursor-pointer font-bold">
+            Descargar CV
+          </button>
+          <a href="https://www.linkedin.com/in/joaquin70/" className="bg-[#03001417] text-white px-4 py-2 rounded-lg border cursor-pointer font-bold">LinkedIn</a>
         </div>
       </div>
 
-      <div className="w-1/2 p-20">
-        <img src={Icons} alt="Mi SVG" className="w-full h-100 rounded text-white " />
+      <div className="lg:w-1/2 p-20">
+        <img src={Icons} alt="Mi SVG" className="w-full h-auto rounded text-white " />
       </div>
     </div>
   );
 };
 
 export default About;
+
+
 
 
 
