@@ -2,6 +2,7 @@ import React from 'react';
 import NauticaImage from '../assets/Nautica Rios.png';
 import RickImage from '../assets/Rick.jpg';
 import PImage from '../assets/VideoJuegos.png';
+import Navidad from '../assets/Navidad Proyect.png';
 
 const ProjectCard = ({ image, title, description, githubLink, liveLink }) => {
     return (
@@ -28,6 +29,12 @@ const ProjectCard = ({ image, title, description, githubLink, liveLink }) => {
 const Projects = () => {
   const projects = [
     {
+      title:'Navidad Proyect',
+      description:'Un proyecto simple para la navidad de el año 2023.',
+      githubLink:'https://github.com/joaquin70/Navidad',
+      image:Navidad,
+    },
+    {
       title: 'Nautica Rios Web',
       description: 'Nautica Rios es una plataforma web y una aplicacion movil facil de usar para comprar accesorios de nautica y embarcaciones.',
       githubLink: 'https://github.com/Ivancho894/Nautica-Rios-Web-Front',
@@ -43,7 +50,7 @@ const Projects = () => {
     },
     {
       title: 'Rick And Morty',
-      description: 'Un proyecto apasionante que nace de mi recorrido por el módulo de cada bootcamp. ¡Crea y agrega personajes favoritos de R&M!',
+      description: 'Un proyecto apasionante que nace de mi recorrido por cada módulo del bootcamp. ¡Crea y agrega personajes favoritos de R&M!',
       githubLink: 'https://github.com/joaquin70/RickaMortyJOAKO',
       image: RickImage,
     },
