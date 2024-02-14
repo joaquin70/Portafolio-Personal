@@ -2,7 +2,7 @@ import React from 'react';
 import NauticaImage from '../assets/Nautica Rios.png';
 import RickImage from '../assets/Rick.jpg';
 import PImage from '../assets/VideoJuegos.png';
-import Navidad from '../assets/Navidad Proyect.png';
+import Acme from '../assets/hero-desktop.png';
 
 const ProjectCard = ({ image, title, description, githubLink, liveLink }) => {
     return (
@@ -29,10 +29,10 @@ const ProjectCard = ({ image, title, description, githubLink, liveLink }) => {
 const Projects = () => {
   const projects = [
     {
-      title:'Navidad Proyect',
-      description:'Un proyecto simple para la navidad de el año 2023.',
-      githubLink:'https://github.com/joaquin70/Navidad',
-      image:Navidad,
+      title:'Acme Dashboard',
+      description:'Un proyecto apasionante de mi recorrido en Vercel.Aprendiendo Next.JS.',
+      githubLink:'https://github.com/joaquin70/Next.JS',
+      image:Acme,
     },
     {
       title: 'Nautica Rios Web',
