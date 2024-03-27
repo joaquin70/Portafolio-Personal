@@ -13,13 +13,17 @@ import Redux from '../assets/redux.png';
 import Styled from '../assets/styled-components.png';
 import Tailwind from '../assets/tailwind.png';
 import Mercado from '../assets/mercadopago.jpg';
+import Next from '../assets/next.png';
+import Sequelize from '../assets/sequelize.svg';
+import Mongo from '../assets/mongodb.png';
+import Bootstrap from '../assets/Bootstrap.svg';
 
 const Skills = () => {
   const technologies = [
-    [HtmlSvg, CssSvg, JsSvg, ReactSvg, NodeSvg],
-    [DatabaseSvg, Firebase, Express, Styled],
-    [Redux, Figma,Tailwind],
-    [Mercado],
+    [HtmlSvg, CssSvg, JsSvg, ReactSvg,Firebase,Next],
+    [DatabaseSvg,Sequelize,Express,Redux,NodeSvg],
+    [Figma,Tailwind,Styled,Bootstrap],
+    [Mercado,Mongo],
   ];
 
   return (
@@ -31,7 +35,7 @@ const Skills = () => {
         <div key={index} className="flex justify-center mt-8">
           {level.map((tech, techIndex) => (
             <div key={techIndex} className="flex flex-col items-center">
-              <img src={tech} alt={`Tech ${techIndex}`} className="w-12 h-12 mb-2" />
+              <img src={tech} alt={`Tech ${techIndex}`} className="w-18 h-16 mb-2" />
             </div>
           ))}
         </div>

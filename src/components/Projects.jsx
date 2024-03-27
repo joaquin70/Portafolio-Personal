@@ -53,7 +53,6 @@ const Projects = () => {
       title: 'Club De VideoJuegos',
       description: 'Da vida a los Videojuegos de tus sueños con nuestra función de creación intuitiva. Personaliza Descripcion,Plataformas y personalidades para diseñar tu Videojuego virtual perfecto.',
       githubLink: 'https://github.com/joaquin70/Videojuegos-PI',
-      liveLink: 'https://videojuegos-pi.vercel.app/',
       image: PImage,
     },
     {
