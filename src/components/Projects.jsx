@@ -3,6 +3,7 @@ import NauticaImage from '../assets/Nautica Rios.png';
 import RickImage from '../assets/Rick.jpg';
 import PImage from '../assets/VideoJuegos.png';
 import Acme from '../assets/hero-desktop.png';
+import NextEcom from '../assets/Ecomo.png';
 
 const ProjectCard = ({ image, title, description, githubLink, liveLink }) => {
     return (
@@ -28,6 +29,13 @@ const ProjectCard = ({ image, title, description, githubLink, liveLink }) => {
 
 const Projects = () => {
   const projects = [
+    {
+      title:'Login,Registration and Authentication With React & Next.js',
+      description: 'Desarrollé un proyecto utilizando Next.js, Bootstrap, MongoDB y NextAuth,creando una aplicación web completamente responsive. Esta plataforma ofrece una experiencia fluida y segura para los usuarios, permitiéndoles interactuar de manera intuitiva en cualquier dispositivo. ¡Explora el código y pruébalo en vivo para descubrir más!',
+      githubLink:'https://github.com/joaquin70/nextecom',
+      liveLink:'https://nextecom-joaquin-s-projects.vercel.app/',
+      image:NextEcom,
+    },
     {
       title:'Acme Dashboard',
       description:'Un proyecto apasionante de mi recorrido en Vercel.Aprendiendo Next.JS.',
