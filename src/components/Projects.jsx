@@ -3,7 +3,7 @@ import NauticaImage from '../assets/Nautica Rios.png';
 import RickImage from '../assets/Rick.jpg';
 import PImage from '../assets/VideoJuegos.png';
 import Acme from '../assets/hero-desktop.png';
-import NextEcom from '../assets/Ecomo.png';
+import NextEcom from '../assets/Ecom.png';
 
 const ProjectCard = ({ image, title, description, githubLink, liveLink }) => {
     return (
