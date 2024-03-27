@@ -1,6 +1,6 @@
 import React from 'react';
 import Icons from '../assets/mainIconsdark.svg';
-import CvPdf from '../assets/CV Joaquin.pdf';
+import CvPdf from '../assets/CV-Joaquin.pdf';
 
 const About = () => {
   const handleDownloadCV = () => {
